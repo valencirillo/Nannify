@@ -1,0 +1,173 @@
+
+
+
+
+
+
+#main-index {
+    font-family: sans-serif;
+    text-decoration: none;
+
+
+}
+
+h1 {
+    text-align: center;
+    padding: 3%;
+    font-size: 30px;
+    color: rgb(0, 0, 139);
+    font-weight: bold;
+}
+
+#main-index section .texto {
+    color: rgb(0, 0, 139);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#main-index section .subtitulo {
+    color: rgb(0, 0, 139);
+    text-align: center;
+    margin-left: 50px;
+    line-height: 15px;
+    font-weight: bolder;
+
+}
+
+
+#main-index section .formulario {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(0, 0, 139);
+    height: 90%;
+    padding: 3%;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+#main-index section .formulario .estilo {
+    text-decoration: underline;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#main-index section .nuevo {
+    color: rgb(0, 0, 139);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#main-index section .nuevodos {
+    color: rgb(0, 0, 139);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#main-index section .grilla-area {
+    border: 3px solid rgb(0, 0, 139);
+    margin: auto;
+    grid-area: tres;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "uno dos tres";
+    width: 800px;
+    height: 350px;
+    justify-content: center;
+}
+
+.grilla-area div {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 139);
+    margin: 2px;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+#main-index .grilla-area .uno {
+    grid-area: uno;
+    margin-left: 3%;
+
+
+}
+
+#main-index .grilla-area .dos {
+    grid-area: dos;
+
+}
+
+#main-index .grilla-area {
+    grid-area: tres;
+    display: flex;
+
+}
+
+.uno img {
+    width: 50%;
+    margin-left: 30%;
+    display: flex;
+}
+
+.dos img {
+    width: 40%;
+    display: flex;
+    margin-left: 30%;
+}
+
+
+.tres img {
+    width: 30%;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 12.5%;
+
+
+}
+
+
+.class {
+    color: rgb(0, 0, 139);
+    margin-left: 10px;
+}
+
+
+#main-index section div .niños {
+    width: 100%;
+    padding-bottom: 0%;
+
+}
+
+
+#main-index section div .mockup {
+    width: 100%;
+    padding-bottom: 0%;
+
+
+}
+
+@media (max-width: 550px) {
+    .grilla-area {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "uno"
+            "dos"
+            "tres";
+    }
+}
