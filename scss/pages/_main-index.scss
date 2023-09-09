@@ -37,22 +37,25 @@ h1 {
 
 }
 
-
-#main-index section .formulario {
+.gradiente{
+    background-image: linear-gradient(darkblue, pink);
+    height: 15 rem;
+    padding: 3 rem;
+    
+}
+.crear-cuenta{
+    color:$color2;
     text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    text-decoration: none;
-    background-color: rgb(0, 0, 139);
-    height: 90%;
-    padding: 3%;
-    background-position: center;
-    background-size: cover;
+    border-color: rgb(0, 0, 139);
 
+    text-align: center;
+    padding-bottom: 15px;
+  
+    padding-top: 15px;
 
 }
 
-#main-index section .formulario .estilo {
+ .estilo {
     text-decoration: underline;
     font-size: 15px;
     margin-top: 10px;
