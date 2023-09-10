@@ -275,16 +275,16 @@ div .mockup {
   }
 }
 /* animaciones*/
-@keyframes estas-listo {
+@keyframes trasladar {
   0% {
-    left: 0;
+    transform: translateX(0); /* Comienza en la posición original */
   }
-  100% {
-    left: 100px;
+  50% {
+    transform: translateX(50px); /* Traslada 50px hacia la derecha */
   }
 }
 .listo {
-  animation: estas-listo 1s ease-in infinite;
+  animation: trasladar 15s;
 }
 
 /*pie de pagina*/
