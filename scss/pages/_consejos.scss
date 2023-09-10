@@ -1,4 +1,4 @@
-/* PAGINA CONSEJOS*/
+/* pagina consejos*/
 .main div {
     display: flex;
     width: auto;
@@ -42,15 +42,19 @@
 
 }
 
-.shadow {
-    background-color: $primary;
-}
 
 
+
+/* boton card*/
 
 .btn-primary:hover {
     background-color: $color1;
 }
+.shadow {
+    background-color: $primary;
+}
+/*cards*/
+
 .card{
     margin: 5%;
     padding:5% ;

@@ -5,6 +5,7 @@
   font-family: sans-serif;
 }
 
+/*header*/
 .header {
   display: flex;
   flex-direction: column;
@@ -59,6 +60,7 @@
   font-size: 15px;
 }
 
+/* boton inicio de sesion*/
 .bnt-1 {
   margin: 15px 10px;
   background-color: rgb(0, 0, 139);
@@ -68,10 +70,7 @@
   font-size: 15px;
 }
 
-.inicio a:active {
-  color: rgb(255, 192, 203);
-}
-
+/* header responsive*/
 @media (max-width: 550px) {
   h1 {
     background-color: rgb(255, 192, 203);
@@ -79,21 +78,18 @@
     margin-top: 60%;
     padding: 5%;
   }
-  header {
-    color: rgb(0, 0, 255);
-  }
-  .header img {
-    width: 190px;
-  }
-  nav ul {
+  header .nav ul {
     justify-content: space-around;
     flex-direction: column;
     margin: 25%;
   }
-  .nav ul li a {
+  header .nav ul li a {
     width: fit-content;
-    color: rgb(0, 0, 139);
+    color: rgb(0, 74, 152);
     margin: 3px;
+  }
+  .header img {
+    width: 190px;
   }
   .texto {
     font-size: 15px;
@@ -107,15 +103,16 @@
   text-decoration: none;
 }
 
+/*titulos y subtitulos*/
 h1 {
   text-align: center;
   padding: 3%;
-  font-size: 30px;
+  font-size: 35px;
   color: rgb(0, 0, 139);
   font-weight: bold;
 }
 
-#main-index section .texto {
+.texto {
   color: rgb(0, 0, 139);
   text-align: center;
   font-family: sans-serif;
@@ -124,7 +121,7 @@ h1 {
   margin-bottom: 25px;
 }
 
-#main-index section .subtitulo {
+.subtitulo {
   color: rgb(0, 0, 139);
   text-align: center;
   margin-left: 50px;
@@ -132,6 +129,7 @@ h1 {
   font-weight: bolder;
 }
 
+/*formulario*/
 .gradiente {
   background-image: linear-gradient(darkblue, pink);
   height: 15 rem;
@@ -153,7 +151,7 @@ h1 {
   margin-top: 10px;
 }
 
-#main-index section .nuevo {
+.nuevo {
   color: rgb(0, 0, 139);
   text-align: center;
   font-family: sans-serif;
@@ -162,7 +160,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-#main-index section .nuevodos {
+.mensaje {
   color: rgb(0, 0, 139);
   text-align: center;
   font-family: sans-serif;
@@ -171,6 +169,7 @@ h1 {
   margin-bottom: 50px;
 }
 
+/*grillas*/
 #main-index section .grilla-area {
   border: 3px solid rgb(0, 0, 139);
   margin: auto;
@@ -208,7 +207,7 @@ h1 {
 }
 
 .uno img {
-  width: 50%;
+  width: 45%;
   margin-left: 30%;
   display: flex;
 }
@@ -229,24 +228,42 @@ h1 {
 .class {
   color: rgb(0, 0, 139);
   margin-left: 10px;
+  margin-top: 6px;
+  text-align: center;
 }
 
-#main-index section div .niños {
+/*imagenes*/
+div .niños {
   width: 100%;
   padding-bottom: 0%;
 }
 
-#main-index section div .mockup {
+div .mockup {
   width: 100%;
   padding-bottom: 0%;
 }
 
+/*grilla responsive*/
 @media (max-width: 550px) {
   .grilla-area {
     grid-template-columns: 1fr;
     grid-template-areas: "uno" "dos" "tres";
   }
+  .uno img {
+    width: 80px;
+    margin: auto;
+  }
+  .dos img {
+    width: 80px;
+    margin: auto;
+  }
+  .class {
+    font-size: 15px;
+    margin: 5px;
+    text-align: center;
+  }
 }
+/*pie de pagina*/
 .footer {
   background-color: rgb(0, 0, 139);
   text-align: center;
@@ -265,6 +282,7 @@ h1 {
 }
 
 /* PAGINA BUSCADOR*/
+/*FORMULARIO*/
 .form {
   color: rgb(255, 255, 255);
   text-align: center;
@@ -275,21 +293,21 @@ h1 {
   padding-top: 15px;
 }
 
-.mapa {
-  align-items: center;
-  width: 100%;
+input {
+  margin-left: 10px;
+  transition: all 0.2s;
 }
 
 input:hover {
   transform: scale(1.1);
 }
 
-input {
-  margin-left: 10px;
-  transition: all 0.2s;
+.mapa {
+  align-items: center;
+  width: 100%;
 }
 
-/* PAGINA CONSEJOS*/
+/* pagina consejos*/
 .main div {
   display: flex;
   width: auto;
@@ -327,14 +345,16 @@ input {
   margin-bottom: 10%;
 }
 
-.shadow {
-  background-color: rgb(215, 141, 189);
-}
-
+/* boton card*/
 .btn-primary:hover {
   background-color: rgb(0, 74, 152);
 }
 
+.shadow {
+  background-color: rgb(215, 141, 189);
+}
+
+/*cards*/
 .card {
   margin: 5%;
   padding: 5%;
@@ -345,7 +365,7 @@ input {
   transform: scale(1.1);
 }
 
-/* PAGINA RESENAS*/
+/* pagina resenas*/
 .avatar {
   display: flex;
 }
@@ -356,6 +376,7 @@ input {
   height: 15%;
 }
 
+/*comentarios de usuarios*/
 .comentario1 {
   color: rgb(0, 0, 139);
   align-items: center;
@@ -371,7 +392,7 @@ input {
   transform: scale(1.1);
 }
 
-/* PAGINA NOSOTROS*/
+/* pagina nosotros*/
 .parrafo {
   color: rgb(0, 0, 139);
   padding-left: 15%;
@@ -383,6 +404,9 @@ h2 {
   color: rgb(0, 0, 139);
   text-align: center;
   padding: 10px;
+  display: flex;
+  margin: 3%;
+  justify-content: space-around;
 }
 
 .carrusel {
@@ -390,6 +414,7 @@ h2 {
   padding-bottom: 0%;
 }
 
+/*formulario*/
 .contacto {
   color: rgb(255, 255, 255);
   text-align: center;
@@ -403,4 +428,17 @@ h2 {
   background-image: linear-gradient(darkblue, pink);
   height: 90%;
   padding: 3%;
+}
+
+/* animaciones*/
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.h2 {
+  animation: texto 2s;
 }/*# sourceMappingURL=style.css.map */

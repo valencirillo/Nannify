@@ -1,9 +1,3 @@
-
-
-
-
-
-
 #main-index {
     font-family: sans-serif;
     text-decoration: none;
@@ -11,15 +5,17 @@
 
 }
 
+/*titulos y subtitulos*/
+
 h1 {
     text-align: center;
     padding: 3%;
-    font-size: 30px;
+    font-size: 35px;
     color: rgb(0, 0, 139);
     font-weight: bold;
 }
 
-#main-index section .texto {
+.texto {
     color: rgb(0, 0, 139);
     text-align: center;
     font-family: sans-serif;
@@ -28,7 +24,7 @@ h1 {
     margin-bottom: 25px;
 }
 
-#main-index section .subtitulo {
+.subtitulo {
     color: rgb(0, 0, 139);
     text-align: center;
     margin-left: 50px;
@@ -37,31 +33,35 @@ h1 {
 
 }
 
-.gradiente{
+/*formulario*/
+
+
+.gradiente {
     background-image: linear-gradient(darkblue, pink);
     height: 15 rem;
     padding: 3 rem;
-    
+
 }
-.crear-cuenta{
-    color:$color2;
+
+.crear-cuenta {
+    color: $color2;
     text-align: center;
     border-color: rgb(0, 0, 139);
 
     text-align: center;
     padding-bottom: 15px;
-  
+
     padding-top: 15px;
 
 }
 
- .estilo {
+.estilo {
     text-decoration: underline;
     font-size: 15px;
     margin-top: 10px;
 }
 
-#main-index section .nuevo {
+.nuevo {
     color: rgb(0, 0, 139);
     text-align: center;
     font-family: sans-serif;
@@ -70,7 +70,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-#main-index section .nuevodos {
+.mensaje {
     color: rgb(0, 0, 139);
     text-align: center;
     font-family: sans-serif;
@@ -78,6 +78,8 @@ h1 {
     font-weight: bold;
     margin-bottom: 50px;
 }
+
+/*grillas*/
 
 #main-index section .grilla-area {
     border: 3px solid rgb(0, 0, 139);
@@ -123,7 +125,7 @@ h1 {
 }
 
 .uno img {
-    width: 50%;
+    width: 45%;
     margin-left: 30%;
     display: flex;
 }
@@ -148,22 +150,28 @@ h1 {
 .class {
     color: rgb(0, 0, 139);
     margin-left: 10px;
+    margin-top: 6px;
+    text-align: center;
 }
 
+/*imagenes*/
 
-#main-index section div .niños {
+div .niños {
     width: 100%;
     padding-bottom: 0%;
 
 }
 
 
-#main-index section div .mockup {
+div .mockup {
     width: 100%;
     padding-bottom: 0%;
 
 
 }
+
+
+/*grilla responsive*/
 
 @media (max-width: 550px) {
     .grilla-area {
@@ -172,5 +180,22 @@ h1 {
             "uno"
             "dos"
             "tres";
+    }
+
+    .uno img {
+        width: 80px;
+        margin: auto;
+
+    }
+
+    .dos img {
+        width: 80px;
+        margin: auto;
+    }
+
+    .class {
+        font-size: 15px;
+        margin: 5px;
+        text-align: center;
     }
 }

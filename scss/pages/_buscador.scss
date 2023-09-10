@@ -1,5 +1,7 @@
 /* PAGINA BUSCADOR*/
 
+/*FORMULARIO*/
+
 
 .form {
     color: rgb(255, 255, 255);
@@ -13,17 +15,19 @@
 
 }
 
-.mapa {
-    align-items: center;
-    width: 100%;
-
+input{
+    margin-left: 10px;
+    transition: all .2s;
 }
 input:hover{
     transform: scale(1.1);
    
 }
 
-input{
-    margin-left: 10px;
-    transition: all .2s;
+
+.mapa {
+    align-items: center;
+    width: 100%;
+
 }
+

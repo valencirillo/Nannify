@@ -1,4 +1,4 @@
-/* PAGINA RESENAS*/
+/* pagina resenas*/
 .avatar {
     display: flex;
 
@@ -13,6 +13,8 @@
 
 }
 
+/*comentarios de usuarios*/
+
 .comentario1 {
     color: rgb(0, 0, 139);
     align-items: center;
@@ -20,9 +22,11 @@
     margin-left: 5%;
 
 }
-.comentario1:hover{
+
+.comentario1:hover {
     transform: scale(1.1);
 }
-.avatar img:hover{
+
+.avatar img:hover {
     transform: scale(1.1);
 }
