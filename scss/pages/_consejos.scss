@@ -50,22 +50,24 @@
 .btn-primary:hover {
     background-color: $color1;
 }
+
 .shadow {
     background-color: $primary;
 }
+
 /*cards*/
 
-.card{
+.card {
     margin: 5%;
-    padding:5% ;
+    padding: 5%;
 }
 
 .card:hover {
 
-    transition: background 1s;  
+    transition: background 1s;
     transform: scale(1.1);
 
+
+
 }
-
-
 

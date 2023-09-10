@@ -43,8 +43,12 @@ h1 {
 
 }
 
-.class{
+.instructivo{
     color: $color1;
+    margin: 3%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 /*formulario*/
@@ -156,8 +160,6 @@ h1 {
     display: flex;
     margin-left: 35%;
     margin-top: 12.5%;
-
-
 }
 
 /*imagenes*/

@@ -138,8 +138,12 @@ h1 {
   margin: auto;
 }
 
-.class {
+.instructivo {
   color: rgb(0, 0, 139);
+  margin: 3%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /*formulario*/
