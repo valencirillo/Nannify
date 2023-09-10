@@ -39,7 +39,6 @@
 .header .nav ul {
   list-style: none;
   padding: 30px;
-  justify-content: center;
   display: flex;
 }
 .header .nav ul li {
@@ -72,21 +71,38 @@
 
 /* header responsive*/
 @media (max-width: 550px) {
-  h1 {
-    background-color: rgb(255, 192, 203);
-    font-size: 5px;
-    margin-top: 60%;
-    padding: 5%;
+  .header .nav {
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    height: 60px;
+    background-color: rgb(0, 0, 139);
+    font-family: sans-serif;
   }
   .header .nav ul {
-    justify-content: space-around;
-    flex-direction: column;
-    margin: 25%;
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+  }
+  .header .nav ul li {
+    margin: 0 6px;
   }
   .header .nav ul li a {
-    width: fit-content;
-    color: rgb(0, 0, 139);
-    margin: 3px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+  }
+  .header .nav ul li a:active {
+    color: rgb(255, 192, 203);
+  }
+  .header .nav ul li a:hover {
+    font-size: 15px;
   }
   .header img {
     width: 190px;
@@ -105,9 +121,10 @@
 
 /*titulos y subtitulos*/
 h1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   padding: 3%;
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(0, 0, 139);
   font-weight: bold;
 }
@@ -272,6 +289,10 @@ div .mockup {
     margin: 5px;
     text-align: center;
   }
+  h1 {
+    background-color: rgb(255, 192, 203);
+    font-size: 25px;
+  }
 }
 /* animaciones*/
 @keyframes trasladar {
@@ -280,7 +301,7 @@ div .mockup {
     /* Comienza en la posición original */
   }
   50% {
-    transform: translateX(50px);
+    transform: translateX(25px);
     /* Traslada 50px hacia la derecha */
   }
 }

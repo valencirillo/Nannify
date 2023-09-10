@@ -8,9 +8,10 @@
 /*titulos y subtitulos*/
 
 h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 3%;
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(0, 0, 139);
     font-weight: bold;
 }
@@ -43,7 +44,7 @@ h1 {
 
 }
 
-.instructivo{
+.instructivo {
     color: $color1;
     margin: 3%;
     text-align: center;
@@ -206,6 +207,15 @@ div .mockup {
         margin: 5px;
         text-align: center;
     }
+
+    h1 {
+        background-color: rgb(255, 192, 203);
+        font-size: 25px;
+       
+       
+
+    }
+
 }
 
 
@@ -219,7 +229,7 @@ div .mockup {
     }
 
     50% {
-        transform: translateX(50px);
+        transform: translateX(25px);
         /* Traslada 50px hacia la derecha */
     }
 
