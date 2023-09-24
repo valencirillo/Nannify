@@ -96,7 +96,7 @@
     font-weight: bold;
     display: flex;
     align-items: center;
-    font-size: 13px;
+    font-size: 11px;
   }
   .header .nav ul li a:active {
     color: rgb(255, 192, 203);
