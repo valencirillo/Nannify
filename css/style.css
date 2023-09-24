@@ -138,6 +138,10 @@ h1 {
   margin: auto;
 }
 
+.section {
+  overflow: hidden;
+}
+
 .listo {
   color: rgb(0, 0, 139);
   text-align: center;
